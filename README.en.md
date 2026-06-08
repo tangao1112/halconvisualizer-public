@@ -44,7 +44,7 @@ C:\Users\<User>\Documents\Visual Studio 2022\Visualizers
 | Stage | What engineers see | What the tool does |
 |---|---|---|
 | Breakpoint | HALCON variables in Watch, Locals, or Autos | Opens the real variable through the magnifier |
-| Expansion | `HObject`, `HImage`, `HRegion`, `HTuple`, `HDict` | Creates a visualization snapshot and launches Viewer |
+| Expansion | `HObject`, `HTuple`, `HDict` | Creates a visualization snapshot and launches Viewer |
 | Image inspection | Channels, pixel values, zoom, pan, fit | Keeps interaction responsive without blocking VS |
 | Region overlay | Fixed LUT-style colors, fill, contour | Displays object regions in a stable order |
 | Review | Profile, histogram, measurement, snapshot copy | Sends debugging evidence straight to the clipboard |
@@ -54,7 +54,7 @@ C:\Users\<User>\Documents\Visual Studio 2022\Visualizers
 | Capability | Description |
 |---|---|
 | VS debugger magnifier | Open HALCON variables from a C# breakpoint without temporary export code |
-| Standalone file viewer | Drag `.hobj`, `.tup`, `.hdict`, `.hvx`, images, and folders into Viewer |
+| Standalone file viewer | Drag `.hobj`, `.tup`, `.hdict`, images|
 | Region visualization | Fixed LUT-style color sequence for Region and XLD overlays |
 | Image analysis | Single-channel, multi-channel, pixel readout, grayscale profile, histogram |
 | Workflow output | Copy image-window screenshots directly to the clipboard as PNG |
@@ -81,7 +81,7 @@ It is built for algorithm engineers, not for generic photo browsing. The focus i
 | IDE | Visual Studio 2022 |
 | Runtime | .NET Framework 4.7.2 or later |
 | Native HALCON files | Reading `.hobj`, `.tup`, and `.hdict` requires HALCON Runtime and a valid HALCON license on the target machine |
-| Plain images and snapshots | Image files and `.hvx` snapshots do not require HALCON Runtime |
+| Plain images and snapshots | Image files and snapshots do not require HALCON Runtime |
 
 ## Updates
 
