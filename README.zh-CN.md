@@ -30,7 +30,7 @@ C# Breakpoint
 ## 立即下载
 
 <p>
-  <a href="https://raw.githubusercontent.com/tangao1112/halconvisualizer-public/main/downloads/v1.0.4/HalconVariableInspectorSetup-1.0.4.exe"><strong>下载 HalconVariableInspectorSetup-1.0.3.exe</strong></a>
+  <a href="https://raw.githubusercontent.com/tangao1112/halconvisualizer-public/main/downloads/v1.0.4/HalconVariableInspectorSetup-1.0.4.exe"><strong>下载 HalconVariableInspectorSetup-1.0.4.exe</strong></a>
 </p>
 
 安装器会把 Visual Studio 调试可视化插件、独立 Viewer、卸载程序和更新能力安装到当前用户的 Visual Studio 2022 Visualizers 目录。
