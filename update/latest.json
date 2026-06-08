@@ -1,14 +1,14 @@
 ﻿{
     "product":  "HalconVariableInspector",
     "channel":  "stable",
-    "version":  "1.0.2",
+    "version":  "1.0.3",
     "minSupportedVersion":  "1.0.0",
-    "installerUrl":  "https://raw.githubusercontent.com/tangao1112/halconvisualizer-public/main/downloads/v1.0.2/HalconVariableInspectorSetup-1.0.2.exe",
-    "sha256":  "252d38b86980ea78963b6859ee576fbda7ecf8fa6be198121ffc3b22f3367ed7",
-    "sizeBytes":  2510475,
+    "installerUrl":  "https://raw.githubusercontent.com/tangao1112/halconvisualizer-public/main/downloads/v1.0.3/HalconVariableInspectorSetup-1.0.3.exe",
+    "sha256":  "cb04f6ab3784d412990724d10d56d9257b7000402f0acdee69a546d063012c6c",
+    "sizeBytes":  2510690,
     "releaseDate":  "2026-06-08",
     "mandatory":  false,
     "notes":  [
-                  "Fix grayscale histogram/profile channel display"
+                  "V1.0.3"
               ]
 }
