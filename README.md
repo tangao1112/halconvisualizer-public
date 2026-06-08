@@ -1,9 +1,13 @@
-# HALCON Variable Inspector / HALCON 变量查看器
+# HALCON Variable Inspector
 
 <p align="center">
   <strong>Inspect HALCON images, regions, tuples, and dictionaries directly from a C# breakpoint.</strong>
-  <br>
-  <span>面向 Visual Studio 2022 + C# + HALCON 调试场景的变量查看器。</span>
+</p>
+
+<p align="center">
+  <a href="README.md">English</a>
+  ·
+  <a href="README.zh-CN.md">中文</a>
 </p>
 
 <p align="center">
@@ -17,17 +21,15 @@
 <p align="center">
   <a href="#download">Download</a>
   ·
-  <a href="#what-it-does">Features</a>
+  <a href="#features">Features</a>
   ·
   <a href="#requirements">Requirements</a>
   ·
   <a href="#updates">Updates</a>
 </p>
 
----
-
 ```text
-C# Breakpoint
+C# breakpoint
     -> Visual Studio magnifier
         -> HALCON image / region / dict / tuple viewer
             -> inspect, measure, copy screenshot, continue debugging
@@ -41,33 +43,34 @@ Install the latest public build:
   <a href="https://raw.githubusercontent.com/tangao1112/halconvisualizer-public/main/downloads/v1.0.3/HalconVariableInspectorSetup-1.0.3.exe"><strong>Download HalconVariableInspectorSetup-1.0.3.exe</strong></a>
 </p>
 
-Current public update manifest:
+Public update manifest:
 
 ```text
 https://raw.githubusercontent.com/tangao1112/halconvisualizer-public/main/update/latest.json
 ```
 
-The installer places the Visual Studio debugger visualizer and the standalone viewer into the current user's Visual Studio 2022 Visualizers directory.
+The installer places the Visual Studio debugger visualizer and standalone viewer into the current user's Visual Studio 2022 Visualizers directory.
 
-## What It Does
+## Features
 
-HALCON Variable Inspector turns C# debugging into an inspection workspace for HALCON variables:
-
-- Open `HObject`, `HImage`, `HRegion`, `HXLDCont`, `HTuple`, and `HDict` directly from Visual Studio Watch, Locals, or Autos.
+- Open `HObject`, `HImage`, `HRegion`, `HXLDCont`, `HTuple`, and `HDict` from Visual Studio Watch, Locals, or Autos.
 - View images, regions, and XLD overlays with fixed LUT-style region colors.
-- Drag local `.hobj`, `.tup`, `.hdict`, `.hvx`, image files, or folders into the standalone viewer.
-- Inspect grayscale profiles, histograms, pixel values, measurements, channels, and copied screenshots without saving temporary files.
-- Keep Visual Studio responsive through lazy file loading and safe previews for large objects.
+- Drag `.hobj`, `.tup`, `.hdict`, `.hvx`, images, or folders into the standalone viewer.
+- Inspect grayscale profiles, histograms, pixel values, measurements, and image channels.
+- Copy image-window screenshots as PNG directly to the clipboard.
+- Keep Visual Studio responsive with lazy file loading and safe previews for large objects.
 
 ## Why It Exists
 
-HALCON's native tools are strong inside HDevelop, but C# debugging often needs a faster bridge.
+HALCON is excellent inside HDevelop. C# debugging needs a faster bridge between the breakpoint and the actual HALCON data.
+
+This tool focuses on a short debugging loop:
 
 ```text
-Breakpoint -> magnifier -> inspect image/region/dict -> continue debugging
+Stop at breakpoint -> open variable -> inspect object -> continue debugging
 ```
 
-This tool focuses on that loop. It is built for algorithm engineers who need to verify real intermediate variables without exporting every object by hand.
+It is built for algorithm engineers who need to verify real intermediate variables without exporting every object by hand.
 
 ## Highlights
 
@@ -92,7 +95,7 @@ Plain image files and `.hvx` snapshots do not require HALCON Runtime.
 
 ## Updates
 
-The viewer checks:
+The viewer reads:
 
 ```text
 update/latest.json
