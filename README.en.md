@@ -13,7 +13,7 @@
 </p>
 
 <p align="center">
-  <a href="https://raw.githubusercontent.com/tangao1112/halconvisualizer-public/main/downloads/v1.0.6/HalconVariableInspectorSetup-1.0.6.exe"><img alt="Download v1.0.6" src="https://img.shields.io/badge/Download-v1.0.6-21b8a6?style=for-the-badge"></a>
+  <a href="https://raw.githubusercontent.com/tangao1112/halconvisualizer-public/main/downloads/v1.0.7/HalconVariableInspectorSetup-1.0.7.exe"><img alt="Download v1.0.7" src="https://img.shields.io/badge/Download-v1.0.7-21b8a6?style=for-the-badge"></a>
   <a href="https://raw.githubusercontent.com/tangao1112/halconvisualizer-public/main/update/latest.json"><img alt="Update channel" src="https://img.shields.io/badge/Update-stable-0f172a?style=for-the-badge"></a>
   <img alt=".NET Framework" src="https://img.shields.io/badge/.NET_Framework-4.7.2+-5b8def?style=for-the-badge">
   <img alt="Visual Studio" src="https://img.shields.io/badge/Visual_Studio-2022-7c5cff?style=for-the-badge">
@@ -23,10 +23,9 @@
 
 | Item | Value |
 | --- | --- |
-| Current version | 1.0.6 |
+| Current version | 1.0.7 |
 | Updated | 2026-06-09 |
-| Installer | [HalconVariableInspectorSetup-1.0.6.exe](https://raw.githubusercontent.com/tangao1112/halconvisualizer-public/main/downloads/v1.0.6/HalconVariableInspectorSetup-1.0.6.exe) |
-| SHA256 | `6d25ec9783219a138b34f908baf9db55249bcc1ccd8813dc7490dfef6275514d` |
+| Installer | [HalconVariableInspectorSetup-1.0.7.exe](https://raw.githubusercontent.com/tangao1112/halconvisualizer-public/main/downloads/v1.0.7/HalconVariableInspectorSetup-1.0.7.exe) |
 | Size | 2.4 MB |
 
 ## Highlights
@@ -34,13 +33,13 @@
 | Capability | Description |
 | --- | --- |
 | Visual Studio debugger magnifier | Open HALCON variables directly from a C# breakpoint. |
-| Standalone file viewer | Drag images, folders, `.hvx`, `.hobj`, `.tup`, and `.hdict` files into Viewer. |
+| Standalone file viewer | Drag images, folders, `.hobj`, `.tup`, and `.hdict` files into Viewer. |
 | Region visualization | Fixed LUT12 color order with Region and XLD overlays. |
 | Image analysis | Channel switching, pixel readout, threshold preview, grayscale profile, and histogram. |
 | Measurement and annotation | Distance, Dx, Dy, angle, rectangle ROI, circle ROI, and freehand annotation. |
 | Screenshot copy | Copy the image-window screenshot directly to the clipboard as PNG. |
 | Large-object protection | Lazy loading and safe previews reduce UI stalls. |
-| Online update | Reads the public update manifest and verifies SHA256 before launching the installer. |
+| Online update | Reads the public update manifest and verifies package integrity before launching the installer. |
 
 ## Installation
 
@@ -62,7 +61,7 @@ C:\Users\<User>\Documents\Visual Studio 2022\Visualizers
 | OS | Windows x64 |
 | IDE | Visual Studio 2022 |
 | Runtime | .NET Framework 4.7.2 or later |
-| Plain images and snapshots | Image files and `.hvx` snapshots do not require HALCON Runtime |
+| Plain images | Image files do not require HALCON Runtime |
 | Visual Studio variables and native HALCON files | Reading `.hobj`, `.tup`, `.hdict`, or debug variables requires HALCON Runtime, HALCON .NET DLLs, and a valid HALCON license on the target machine |
 
 ## Update Verification
@@ -73,7 +72,7 @@ Viewer reads the public update manifest:
 https://raw.githubusercontent.com/tangao1112/halconvisualizer-public/main/update/latest.json
 ```
 
-When a newer version is available, the in-app update button downloads the installer, calculates SHA256, and compares it with the manifest value before launching the installer.
+When a newer version is available, the in-app update button downloads the installer and verifies package integrity before launching the installer.
 
 ## Distribution Scope
 

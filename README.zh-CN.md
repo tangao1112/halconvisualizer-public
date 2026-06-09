@@ -13,7 +13,7 @@
 </p>
 
 <p align="center">
-  <a href="https://raw.githubusercontent.com/tangao1112/halconvisualizer-public/main/downloads/v1.0.6/HalconVariableInspectorSetup-1.0.6.exe"><img alt="下载 v1.0.6" src="https://img.shields.io/badge/下载-v1.0.6-21b8a6?style=for-the-badge"></a>
+  <a href="https://raw.githubusercontent.com/tangao1112/halconvisualizer-public/main/downloads/v1.0.7/HalconVariableInspectorSetup-1.0.7.exe"><img alt="下载 v1.0.7" src="https://img.shields.io/badge/下载-v1.0.7-21b8a6?style=for-the-badge"></a>
   <a href="https://raw.githubusercontent.com/tangao1112/halconvisualizer-public/main/update/latest.json"><img alt="更新通道" src="https://img.shields.io/badge/更新通道-stable-0f172a?style=for-the-badge"></a>
   <img alt=".NET Framework" src="https://img.shields.io/badge/.NET_Framework-4.7.2+-5b8def?style=for-the-badge">
   <img alt="Visual Studio" src="https://img.shields.io/badge/Visual_Studio-2022-7c5cff?style=for-the-badge">
@@ -23,10 +23,9 @@
 
 | 项目 | 内容 |
 | --- | --- |
-| 当前版本 | 1.0.6 |
+| 当前版本 | 1.0.7 |
 | 更新日期 | 2026-06-09 |
-| 安装包 | [HalconVariableInspectorSetup-1.0.6.exe](https://raw.githubusercontent.com/tangao1112/halconvisualizer-public/main/downloads/v1.0.6/HalconVariableInspectorSetup-1.0.6.exe) |
-| SHA256 | `6d25ec9783219a138b34f908baf9db55249bcc1ccd8813dc7490dfef6275514d` |
+| 安装包 | [HalconVariableInspectorSetup-1.0.7.exe](https://raw.githubusercontent.com/tangao1112/halconvisualizer-public/main/downloads/v1.0.7/HalconVariableInspectorSetup-1.0.7.exe) |
 | 文件大小 | 2.4 MB |
 
 ## 功能亮点
@@ -34,13 +33,13 @@
 | 能力 | 说明 |
 | --- | --- |
 | VS 调试器放大镜 | 从 C# 断点直接打开 HALCON 变量，不需要临时导出。 |
-| 独立文件查看 | 支持拖拽图片、文件夹、`.hvx`、`.hobj`、`.tup`、`.hdict`。 |
+| 独立文件查看 | 支持拖拽图片、文件夹、`.hobj`、`.tup`、`.hdict`。 |
 | 区域可视化 | 固定 LUT12 颜色序列，支持 Region 和 XLD 叠加。 |
 | 图像分析 | 通道切换、像素读数、阈值预览、灰度剖面和直方图。 |
 | 测量与标注 | 支持距离、Dx、Dy、角度、ROI 框、圆形 ROI 和手绘标注。 |
 | 截图复制 | 图像窗口截图以 PNG 直接写入剪贴板。 |
 | 大对象保护 | 按需加载和安全预览降低 UI 卡顿风险。 |
-| 在线更新 | 读取公开更新清单，校验 SHA256 后启动安装器。 |
+| 在线更新 | 读取公开更新清单，完成完整性校验后启动安装器。 |
 
 ## 安装
 
@@ -62,7 +61,7 @@ C:\Users\<User>\Documents\Visual Studio 2022\Visualizers
 | 系统 | Windows x64 |
 | IDE | Visual Studio 2022 |
 | 运行框架 | .NET Framework 4.7.2 或更高版本 |
-| 普通图像和快照 | 图片文件与 `.hvx` 快照不依赖 HALCON Runtime |
+| 普通图像 | 图片文件不依赖 HALCON Runtime |
 | VS 变量和 HALCON 原生文件 | 读取 `.hobj`、`.tup`、`.hdict` 或调试变量时，需要目标电脑具备 HALCON Runtime、HALCON .NET DLL 和合法授权 |
 
 ## 更新校验
@@ -73,7 +72,7 @@ Viewer 会读取公开更新清单：
 https://raw.githubusercontent.com/tangao1112/halconvisualizer-public/main/update/latest.json
 ```
 
-当有新版本时，工具内更新按钮会下载安装包、计算 SHA256，并与清单值比对；一致后才会启动安装器。
+当有新版本时，工具内更新按钮会下载安装包并完成完整性校验；通过后才会启动安装器。
 
 ## 分发范围
 
