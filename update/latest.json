@@ -1,14 +1,14 @@
 ﻿{
     "product":  "HalconVariableInspector",
     "channel":  "stable",
-    "version":  "1.0.5",
+    "version":  "1.0.6",
     "minSupportedVersion":  "1.0.0",
-    "installerUrl":  "https://raw.githubusercontent.com/tangao1112/halconvisualizer-public/main/downloads/v1.0.5/HalconVariableInspectorSetup-1.0.5.exe",
-    "sha256":  "6dab9ea633b87b4c672b40354b926ae7d2a8cf9849493d3209ba20d369f76fc0",
-    "sizeBytes":  2532514,
+    "installerUrl":  "https://raw.githubusercontent.com/tangao1112/halconvisualizer-public/main/downloads/v1.0.6/HalconVariableInspectorSetup-1.0.6.exe",
+    "sha256":  "6d25ec9783219a138b34f908baf9db55249bcc1ccd8813dc7490dfef6275514d",
+    "sizeBytes":  2532424,
     "releaseDate":  "2026-06-09",
     "mandatory":  false,
     "notes":  [
-                  "Release 1.0.5"
+                  "Release 1.0.6"
               ]
 }

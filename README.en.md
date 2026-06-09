@@ -1,4 +1,4 @@
-# HALCON Variable Inspector
+﻿# HALCON Variable Inspector
 
 <p align="center">
   <strong>A Visual Studio 2022 + C# + HALCON variable inspection cockpit.</strong>
@@ -7,109 +7,74 @@
 </p>
 
 <p align="center">
-  <a href="README.md">中文</a>
+  <a href="README.zh-CN.md">中文</a>
   ·
   <a href="README.en.md"><strong>English</strong></a>
 </p>
 
 <p align="center">
-  <a href="https://raw.githubusercontent.com/tangao1112/halconvisualizer-public/main/downloads/v1.0.4/HalconVariableInspectorSetup-1.0.4.exe"><img alt="Download v1.0.4" src="https://img.shields.io/badge/Download-v1.0.4-21b8a6?style=for-the-badge"></a>
+  <a href="https://raw.githubusercontent.com/tangao1112/halconvisualizer-public/main/downloads/v1.0.6/HalconVariableInspectorSetup-1.0.6.exe"><img alt="Download v1.0.6" src="https://img.shields.io/badge/Download-v1.0.6-21b8a6?style=for-the-badge"></a>
   <a href="https://raw.githubusercontent.com/tangao1112/halconvisualizer-public/main/update/latest.json"><img alt="Update channel" src="https://img.shields.io/badge/Update-stable-0f172a?style=for-the-badge"></a>
   <img alt=".NET Framework" src="https://img.shields.io/badge/.NET_Framework-4.7.2+-5b8def?style=for-the-badge">
   <img alt="Visual Studio" src="https://img.shields.io/badge/Visual_Studio-2022-7c5cff?style=for-the-badge">
 </p>
 
-```text
-C# Breakpoint
-    -> Visual Studio Magnifier
-        -> HALCON Variable Inspector
-            -> Image / Region / Tuple / Dict / Local Files
-                -> Inspect / Measure / Copy Snapshot / Continue Debugging
-```
-
 ## Download
 
-<p>
-  <a href="https://raw.githubusercontent.com/tangao1112/halconvisualizer-public/main/downloads/v1.0.4/HalconVariableInspectorSetup-1.0.4.exe"><strong>Download HalconVariableInspectorSetup-1.0.4.exe</strong></a>
-</p>
+| Item | Value |
+| --- | --- |
+| Current version | 1.0.6 |
+| Updated | 2026-06-09 |
+| Installer | [HalconVariableInspectorSetup-1.0.6.exe](https://raw.githubusercontent.com/tangao1112/halconvisualizer-public/main/downloads/v1.0.6/HalconVariableInspectorSetup-1.0.6.exe) |
+| SHA256 | `6d25ec9783219a138b34f908baf9db55249bcc1ccd8813dc7490dfef6275514d` |
+| Size | 2.4 MB |
 
-The installer places the Visual Studio debugger visualizer, standalone viewer, uninstaller, and update support into the current user's Visual Studio 2022 Visualizers directory.
+## Highlights
+
+| Capability | Description |
+| --- | --- |
+| Visual Studio debugger magnifier | Open HALCON variables directly from a C# breakpoint. |
+| Standalone file viewer | Drag images, folders, `.hvx`, `.hobj`, `.tup`, and `.hdict` files into Viewer. |
+| Region visualization | Fixed LUT12 color order with Region and XLD overlays. |
+| Image analysis | Channel switching, pixel readout, threshold preview, grayscale profile, and histogram. |
+| Measurement and annotation | Distance, Dx, Dy, angle, rectangle ROI, circle ROI, and freehand annotation. |
+| Screenshot copy | Copy the image-window screenshot directly to the clipboard as PNG. |
+| Large-object protection | Lazy loading and safe previews reduce UI stalls. |
+| Online update | Reads the public update manifest and verifies SHA256 before launching the installer. |
+
+## Installation
+
+1. Download the installer above.
+2. Close Visual Studio, the debuggee process, and any open Viewer windows.
+3. Run the installer. The default Visual Studio 2022 Visualizers directory is recommended.
+4. Restart Visual Studio after installation.
+
+Default install location:
 
 ```text
 C:\Users\<User>\Documents\Visual Studio 2022\Visualizers
 ```
 
-## Debugging Loop
-
-| Stage | What engineers see | What the tool does |
-|---|---|---|
-| Breakpoint | HALCON variables in Watch, Locals, or Autos | Opens the real variable through the magnifier |
-| Expansion | `HObject`, `HTuple`, `HDict` | Creates a visualization snapshot and launches Viewer |
-| Image inspection | Channels, pixel values, zoom, pan, fit | Keeps interaction responsive without blocking VS |
-| Region overlay | Fixed LUT-style colors, fill, contour | Displays object regions in a stable order |
-| Review | Profile, histogram, measurement, snapshot copy | Sends debugging evidence straight to the clipboard |
-
-## Capability Matrix
-
-| Capability | Description |
-|---|---|
-| VS debugger magnifier | Open HALCON variables from a C# breakpoint without temporary export code |
-| Standalone file viewer | Drag `.hobj`, `.tup`, `.hdict`, images|
-| Region visualization | Fixed LUT-style color sequence for Region and XLD overlays |
-| Image analysis | Single-channel, multi-channel, pixel readout, grayscale profile, histogram |
-| Workflow output | Copy image-window screenshots directly to the clipboard as PNG |
-| Large-object protection | Lazy loading and safe previews reduce UI stalls |
-| Update channel | Reads a public manifest, verifies SHA256, then launches the installer |
-
-## Why It Matters
-
-HALCON is strong inside HDevelop, but C# debugging often splits the real runtime variable and the visual judgment into different tools.
-
-This Viewer shortens the loop:
-
-```text
-Pause -> open variable -> inspect image and region -> judge algorithm state -> continue debugging
-```
-
-It is built for algorithm engineers, not for generic photo browsing. The focus is accurate HALCON variable loading, stable region display, fast channel switching, and keeping Visual Studio responsive.
-
 ## Requirements
 
 | Item | Requirement |
-|---|---|
+| --- | --- |
 | OS | Windows x64 |
 | IDE | Visual Studio 2022 |
 | Runtime | .NET Framework 4.7.2 or later |
-| Native HALCON files | Reading `.hobj`, `.tup`, and `.hdict` requires HALCON Runtime and a valid HALCON license on the target machine |
-| Plain images and snapshots | Image files and snapshots do not require HALCON Runtime |
+| Plain images and snapshots | Image files and `.hvx` snapshots do not require HALCON Runtime |
+| Visual Studio variables and native HALCON files | Reading `.hobj`, `.tup`, `.hdict`, or debug variables requires HALCON Runtime, HALCON .NET DLLs, and a valid HALCON license on the target machine |
 
-## Updates
+## Update Verification
 
-Viewer reads the public version manifest:
+Viewer reads the public update manifest:
 
 ```text
 https://raw.githubusercontent.com/tangao1112/halconvisualizer-public/main/update/latest.json
 ```
 
-Release layout:
+When a newer version is available, the in-app update button downloads the installer, calculates SHA256, and compares it with the manifest value before launching the installer.
 
-```text
-update/latest.json
-downloads/v1.0.3/HalconVariableInspectorSetup-1.0.3.exe
-```
+## Distribution Scope
 
-When a newer version is available, the in-app update button downloads the installer, verifies SHA256, then launches the installer. This public repository only provides binary installers and update metadata.
-
-## Repository Scope
-
-This repository is a public distribution channel. It contains:
-
-| Content | Included |
-|---|---|
-| Installer | Yes |
-| Update manifest | Yes |
-| Private source code | No |
-| HALCON Runtime | No |
-| HALCON license files | No |
-
-Target machines must provide their own HALCON Runtime, configuration, and license. The installer does not modify HALCON configuration on the target machine.
+This page provides the installer, update manifest, and usage notes only. The installer does not include HALCON Runtime, HALCON configuration, or HALCON license files; target machines must provide those separately.
