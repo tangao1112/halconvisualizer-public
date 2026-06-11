@@ -1,4 +1,4 @@
-﻿# HALCON 变量查看器
+﻿# Halcon Go
 
 [中文说明](README.zh-CN.md) | [English](README.en.md)
 
@@ -6,9 +6,9 @@
 
 | 项目 | 内容 |
 | --- | --- |
-| 版本 | 1.0.7 |
-| 更新日期 | 2026-06-09 |
-| 安装包 | [HalconVariableInspectorSetup-1.0.7.exe](https://raw.githubusercontent.com/tangao1112/halconvisualizer-public/main/downloads/v1.0.7/HalconVariableInspectorSetup-1.0.7.exe) |
+| 版本 | 1.0.8 |
+| 更新日期 | 2026-06-11 |
+| 安装包 | [HalconVariableInspectorSetup-1.0.8.exe](https://raw.githubusercontent.com/tangao1112/halconvisualizer-public/main/downloads/v1.0.8/HalconVariableInspectorSetup-1.0.8.exe) |
 | 更新清单 | [latest.json](https://raw.githubusercontent.com/tangao1112/halconvisualizer-public/main/update/latest.json) |
 
 ## 功能亮点

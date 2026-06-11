@@ -1,4 +1,4 @@
-﻿# HALCON Variable Inspector
+﻿# Halcon Go
 
 <p align="center">
   <strong>A Visual Studio 2022 + C# + HALCON variable inspection cockpit.</strong>
@@ -13,7 +13,7 @@
 </p>
 
 <p align="center">
-  <a href="https://raw.githubusercontent.com/tangao1112/halconvisualizer-public/main/downloads/v1.0.7/HalconVariableInspectorSetup-1.0.7.exe"><img alt="Download v1.0.7" src="https://img.shields.io/badge/Download-v1.0.7-21b8a6?style=for-the-badge"></a>
+  <a href="https://raw.githubusercontent.com/tangao1112/halconvisualizer-public/main/downloads/v1.0.8/HalconVariableInspectorSetup-1.0.8.exe"><img alt="Download v1.0.8" src="https://img.shields.io/badge/Download-v1.0.8-21b8a6?style=for-the-badge"></a>
   <a href="https://raw.githubusercontent.com/tangao1112/halconvisualizer-public/main/update/latest.json"><img alt="Update channel" src="https://img.shields.io/badge/Update-stable-0f172a?style=for-the-badge"></a>
   <img alt=".NET Framework" src="https://img.shields.io/badge/.NET_Framework-4.7.2+-5b8def?style=for-the-badge">
   <img alt="Visual Studio" src="https://img.shields.io/badge/Visual_Studio-2022-7c5cff?style=for-the-badge">
@@ -23,9 +23,9 @@
 
 | Item | Value |
 | --- | --- |
-| Current version | 1.0.7 |
-| Updated | 2026-06-09 |
-| Installer | [HalconVariableInspectorSetup-1.0.7.exe](https://raw.githubusercontent.com/tangao1112/halconvisualizer-public/main/downloads/v1.0.7/HalconVariableInspectorSetup-1.0.7.exe) |
+| Current version | 1.0.8 |
+| Updated | 2026-06-11 |
+| Installer | [HalconVariableInspectorSetup-1.0.8.exe](https://raw.githubusercontent.com/tangao1112/halconvisualizer-public/main/downloads/v1.0.8/HalconVariableInspectorSetup-1.0.8.exe) |
 | Size | 2.4 MB |
 
 ## Highlights
