@@ -13,7 +13,7 @@
 </p>
 
 <p align="center">
-  <a href="https://raw.githubusercontent.com/tangao1112/halconvisualizer-public/main/downloads/v1.1.2/HalconVariableInspectorSetup-1.1.2.exe"><img alt="Download v1.1.2" src="https://img.shields.io/badge/Download-v1.1.2-21b8a6?style=for-the-badge"></a>
+  <a href="https://github.com/tangao1112/halconvisualizer-public/releases/download/v1.1.3/HalconVariableInspectorSetup-1.1.3.exe"><img alt="Download v1.1.3" src="https://img.shields.io/badge/Download-v1.1.3-21b8a6?style=for-the-badge"></a>
   <a href="https://raw.githubusercontent.com/tangao1112/halconvisualizer-public/main/update/latest.json"><img alt="Update channel" src="https://img.shields.io/badge/Update-stable-0f172a?style=for-the-badge"></a>
   <img alt=".NET Framework" src="https://img.shields.io/badge/.NET_Framework-4.7.2+-5b8def?style=for-the-badge">
   <img alt="Visual Studio" src="https://img.shields.io/badge/Visual_Studio-2022-7c5cff?style=for-the-badge">
@@ -23,9 +23,9 @@
 
 | Item | Value |
 | --- | --- |
-| Current version | 1.1.2 |
-| Updated | 2026-07-09 |
-| Installer | [HalconVariableInspectorSetup-1.1.2.exe](https://raw.githubusercontent.com/tangao1112/halconvisualizer-public/main/downloads/v1.1.2/HalconVariableInspectorSetup-1.1.2.exe) |
+| Current version | 1.1.3 |
+| Updated | 2026-07-13 |
+| Installer | [HalconVariableInspectorSetup-1.1.3.exe](https://github.com/tangao1112/halconvisualizer-public/releases/download/v1.1.3/HalconVariableInspectorSetup-1.1.3.exe) |
 | Size | 2.6 MB |
 
 ## Highlights

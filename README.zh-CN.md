@@ -13,7 +13,7 @@
 </p>
 
 <p align="center">
-  <a href="https://raw.githubusercontent.com/tangao1112/halconvisualizer-public/main/downloads/v1.1.2/HalconVariableInspectorSetup-1.1.2.exe"><img alt="下载 v1.1.2" src="https://img.shields.io/badge/下载-v1.1.2-21b8a6?style=for-the-badge"></a>
+  <a href="https://github.com/tangao1112/halconvisualizer-public/releases/download/v1.1.3/HalconVariableInspectorSetup-1.1.3.exe"><img alt="下载 v1.1.3" src="https://img.shields.io/badge/下载-v1.1.3-21b8a6?style=for-the-badge"></a>
   <a href="https://raw.githubusercontent.com/tangao1112/halconvisualizer-public/main/update/latest.json"><img alt="更新通道" src="https://img.shields.io/badge/更新通道-stable-0f172a?style=for-the-badge"></a>
   <img alt=".NET Framework" src="https://img.shields.io/badge/.NET_Framework-4.7.2+-5b8def?style=for-the-badge">
   <img alt="Visual Studio" src="https://img.shields.io/badge/Visual_Studio-2022-7c5cff?style=for-the-badge">
@@ -23,9 +23,9 @@
 
 | 项目 | 内容 |
 | --- | --- |
-| 当前版本 | 1.1.2 |
-| 更新日期 | 2026-07-09 |
-| 安装包 | [HalconVariableInspectorSetup-1.1.2.exe](https://raw.githubusercontent.com/tangao1112/halconvisualizer-public/main/downloads/v1.1.2/HalconVariableInspectorSetup-1.1.2.exe) |
+| 当前版本 | 1.1.3 |
+| 更新日期 | 2026-07-13 |
+| 安装包 | [HalconVariableInspectorSetup-1.1.3.exe](https://github.com/tangao1112/halconvisualizer-public/releases/download/v1.1.3/HalconVariableInspectorSetup-1.1.3.exe) |
 | 文件大小 | 2.6 MB |
 
 ## 功能亮点
