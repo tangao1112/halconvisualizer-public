@@ -1,14 +1,17 @@
 ﻿{
     "product":  "HalconVariableInspector",
     "channel":  "stable",
-    "version":  "1.1.3",
+    "version":  "1.1.4",
     "minSupportedVersion":  "1.0.0",
-    "installerUrl":  "https://github.com/tangao1112/halconvisualizer-public/releases/download/v1.1.3/HalconVariableInspectorSetup-1.1.3.exe",
-    "sha256":  "7f2c6e7a32cecac32fd3f714f44e34e7037e04cf6e684e0b1a904eeef6356979",
-    "sizeBytes":  2736632,
-    "releaseDate":  "2026-07-13",
+    "installerUrl":  "https://github.com/tangao1112/halconvisualizer-public/releases/download/v1.1.4/HalconVariableInspectorSetup-1.1.4.exe",
+    "sha256":  "ddb299339cbde9bba34ddba29602eb904acd5ac103d5fa1437a47bdabdeeb130",
+    "sizeBytes":  3079961,
+    "releaseDate":  "2026-07-18",
     "mandatory":  false,
     "notes":  [
-                  "Release 1.1.3"
+                  "新增 Flat/Dark 标定校正与图像数学操作",
+                  "新增灰度形态学与背景扣除",
+                  "修复快速切图详情闪现、文件定位和测量交互",
+                  "更新应用、桌面和安装包图标"
               ]
 }
