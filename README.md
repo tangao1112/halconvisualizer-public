@@ -6,9 +6,9 @@
 
 | 项目 | 内容 |
 | --- | --- |
-| 版本 | 1.1.4 |
-| 更新日期 | 2026-07-18 |
-| 安装包 | [HalconVariableInspectorSetup-1.1.4.exe](https://github.com/tangao1112/halconvisualizer-public/releases/download/v1.1.4/HalconVariableInspectorSetup-1.1.4.exe) |
+| 版本 | 1.1.5 |
+| 更新日期 | 2026-07-24 |
+| 安装包 | [HalconVariableInspectorSetup-1.1.5.exe](https://github.com/tangao1112/halconvisualizer-public/releases/download/v1.1.5/HalconVariableInspectorSetup-1.1.5.exe) |
 | 更新清单 | [latest.json](https://raw.githubusercontent.com/tangao1112/halconvisualizer-public/main/update/latest.json) |
 
 ## 功能亮点

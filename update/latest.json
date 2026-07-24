@@ -1,17 +1,22 @@
 ﻿{
     "product":  "HalconVariableInspector",
     "channel":  "stable",
-    "version":  "1.1.4",
+    "version":  "1.1.5",
     "minSupportedVersion":  "1.0.0",
-    "installerUrl":  "https://github.com/tangao1112/halconvisualizer-public/releases/download/v1.1.4/HalconVariableInspectorSetup-1.1.4.exe",
-    "sha256":  "ddb299339cbde9bba34ddba29602eb904acd5ac103d5fa1437a47bdabdeeb130",
-    "sizeBytes":  3079961,
-    "releaseDate":  "2026-07-18",
+    "installerUrl":  "https://github.com/tangao1112/halconvisualizer-public/releases/download/v1.1.5/HalconVariableInspectorSetup-1.1.5.exe",
+    "sha256":  "cf8ee91eee1f941e2b046079551f87a32c3823723728e2263b701dec4bc42466",
+    "sizeBytes":  2951628,
+    "releaseDate":  "2026-07-24",
     "mandatory":  false,
     "notes":  [
-                  "新增 Flat/Dark 标定校正与图像数学操作",
-                  "新增灰度形态学与背景扣除",
-                  "修复快速切图详情闪现、文件定位和测量交互",
-                  "更新应用、桌面和安装包图标"
-              ]
+                  "优化智能 ROI 正负提示与掩膜编辑",
+                  "完善传统 ROI 交互、笔刷预览与 AI 工作台按需下载"
+              ],
+    "aiWorkbench":  {
+                        "version":  "1.1.5",
+                        "url":  "https://github.com/tangao1112/halconvisualizer-public/releases/download/v1.1.5/HalconGoAiWorkbench-1.1.5-win-x64.zip",
+                        "sha256":  "1edd777cb2714253202281867a06c839c8bc6c40a3dae65ab501dbde9e83b7b6",
+                        "sizeBytes":  75268665,
+                        "executable":  "HalconVariableInspector.AiOfflineDemo.Ui.exe"
+                    }
 }
